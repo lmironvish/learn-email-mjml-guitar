@@ -13,23 +13,97 @@
               alt="{{{views-tile__img-guitar.alt}}}" />
   </mj-column>
 
-  <mj-column mj-class="views-tile__column"
-            css-class="views-tile__column">
+  <mj-column mj-class="views-tile__column info"
+            css-class="views-tile__column info">
 
     <mj-text mj-class="views-tile_caption"
             css-class="views-tile_caption">
-            WEEKEND SALE
+            GUITARS
     </mj-text>
 
   <mj-text mj-class="views-tile_text"
             css-class="views-tile_text">
-            <span>LABOR DAY</span>
+            <span>35% off</span>
     </mj-text>
 
-    <mj-button mj-class="views-tile_btn"
-              css-class="views-tile_btn"
+    <mj-button mj-class="views-tile__btn"
+              css-class="views-tile__btn"
               href="#">
-        Shop now
+        Learn more
+    </mj-button>
+  </mj-column>
+
+</mj-section>
+
+<mj-section mj-class="views-tile"
+          css-class="views-tile">
+
+  <mj-column mj-class="views-tile__column"
+            css-class="views-tile__column">
+
+    <mj-image mj-class="views-tile__img-guitar pt10 pb20 alt-img"
+              css-class="views-tile__img-guitar pt10 pb20 alt-img"
+
+              src="{{{views-tile__img-guitar.src}}}"
+              href="{{{views-tile__img-guitar.href}}}"
+              title="{{{views-tile__img-guitar.title}}}"
+              alt="{{{views-tile__img-guitar.alt}}}" />
+  </mj-column>
+
+  <mj-column mj-class="views-tile__column info"
+            css-class="views-tile__column info">
+
+    <mj-text mj-class="views-tile_caption"
+            css-class="views-tile_caption">
+            PIANOS
+    </mj-text>
+
+  <mj-text mj-class="views-tile_text"
+            css-class="views-tile_text">
+            45% off
+    </mj-text>
+
+    <mj-button mj-class="views-tile__btn"
+              css-class="views-tile__btn"
+              href="#">
+        Learn more
+    </mj-button>
+  </mj-column>
+
+</mj-section>
+
+<mj-section mj-class="views-tile"
+          css-class="views-tile">
+
+  <mj-column mj-class="views-tile__column"
+            css-class="views-tile__column">
+
+    <mj-image mj-class="views-tile__img-guitar pt10 pb20 alt-img"
+              css-class="views-tile__img-guitar pt10 pb20 alt-img"
+
+              src="{{{views-tile__img-guitar.src}}}"
+              href="{{{views-tile__img-guitar.href}}}"
+              title="{{{views-tile__img-guitar.title}}}"
+              alt="{{{views-tile__img-guitar.alt}}}" />
+  </mj-column>
+
+  <mj-column mj-class="views-tile__column info"
+            css-class="views-tile__column info">
+
+    <mj-text mj-class="views-tile_caption"
+            css-class="views-tile_caption">
+            MICROFONES
+    </mj-text>
+
+  <mj-text mj-class="views-tile_text"
+            css-class="views-tile_text">
+            35% off
+    </mj-text>
+
+    <mj-button mj-class="views-tile__btn"
+              css-class="views-tile__btn"
+              href="#">
+        Learn more
     </mj-button>
   </mj-column>
 

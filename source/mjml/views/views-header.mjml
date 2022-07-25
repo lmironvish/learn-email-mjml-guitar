@@ -6,7 +6,7 @@
 
     <mj-text mj-class="views-header__text"
             css-class="views-header__text">
-            <span>LABOR DAY</span>
+            LABOR DAY
     </mj-text>
 
     <mj-text mj-class="views-header__caption"

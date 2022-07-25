@@ -141,5 +141,37 @@
 
   <mj-class name="views-header__img-div"     padding="20px 0px"/>
 
+  <!-- tiles -->
+
+  <mj-class name="views-tile_caption"        font-family="Oswald, Verdana, Geneva, sans-serif"
+                                             font-size="22px"
+                                             font-style="normal"
+                                             font-weight="700"
+                                             line-height="34px"
+                                             text-align="center"
+                                             text-transform="uppercase"
+                                             color="#efefef"/>
+
+  <mj-class name="views-tile_text"           font-family="Verdana, Geneva, sans-serif"
+                                             font-size="18px"
+                                             font-style="normal"
+                                             font-weight="700"
+                                             line-height="28px"
+                                             text-align="center"
+                                             color="#efefef"/>
+
+  <mj-class name="views-tile__btn"           font-family="Verdana, Geneva, sans-serif"
+                                             font-size="16px"
+                                             font-size="normal"
+                                             font-weight="700"
+                                             line-height="26px"
+                                             text-align="center"
+                                             border-radius="0px"
+                                             text-transform="uppercase"
+                                             background-color="#202020"
+                                             color="#efefef"/>
+
+  <mj-class name="info"                      background-color="#d6383d"
+                                             color="#efefef"/>
 
 </mj-attributes>
