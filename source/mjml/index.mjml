@@ -1,0 +1,38 @@
+<mjml lang="ru">
+
+  <mj-head>
+
+    <mj-title>{{{title.content}}}</mj-title>
+    <mj-preview>{{{preheader.content}}}</mj-preview>
+
+    <mj-include path="global/attributes.mjml" />
+    <mj-include path="global/style-inline.mjml" />
+    <mj-include path="global/style.mjml" />
+
+    <mj-include path="components/spacer/spacer-attributes.mjml" />
+
+    <mj-include path="components/button/button-inline.mjml" />
+    <mj-include path="components/button/button-style.mjml" />
+    <mj-font name="Oswald"
+       href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" />
+   </mj-head>
+
+    <mj-raw>
+      <meta name="color-scheme" content="light dark">
+      <meta name="supported-color-schemes" content="light dark">
+    </mj-raw>
+
+  </mj-head>
+
+  <mj-body css-class="body"
+           background-color="#000000">
+
+  <mj-include path="views/views-title.mjml" />
+
+  <mj-include path="views/views-header.mjml" />
+
+  <mj-include path="views/views-footer.mjml" />
+
+  </mj-body>
+
+</mjml>

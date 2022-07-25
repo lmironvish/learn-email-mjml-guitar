@@ -1,0 +1,69 @@
+{
+  "title": {
+    "content": "title"
+  },
+
+  "preheader": {
+    "content": "preheader &nbsp;&zwnj;"
+  },
+
+  "views-title__img": {
+    "src": "https://i.postimg.cc/V6GsfqQ5/img-tech-logo.png",
+    "href": "https://www.google.com/",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-header__img": {
+    "src": "https://i.postimg.cc/ZK9nqMqm/img-tech-headphones-1.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-new-product__img": {
+    "src": "https://i.postimg.cc/tCVRbnrC/img-tech-quadrocopter.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-three-col__img-cam": {
+    "src": "https://i.postimg.cc/SRHy8mKh/img-tech-product-2.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-three-col__img-hf": {
+    "src": "https://i.postimg.cc/N0xfVhd6/img-tech-headphones-2.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-three-col__img-tel": {
+    "src": "https://i.postimg.cc/tJsqYspk/img-tech-product-1.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-vr__img": {
+    "src": "https://i.postimg.cc/NjqsjGV8/img-tech-vr.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "button--1": {
+    "src": "",
+    "href": "https://www.google.com/",
+    "title": "text",
+    "bgcolor": "#838383"
+  },
+
+  "views-footer-link-1": {
+    "href": "https://www.google.com/",
+    "title": "text"
+  },
+
+  "views-unsubscribe": {
+    "href": "{{ unsubscribe_link }}",
+    "title": "text"
+  }
+}

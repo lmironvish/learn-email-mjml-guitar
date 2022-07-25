@@ -1,0 +1,24 @@
+<mj-section mj-class="views-footer pb10 pt10"
+            css-class="views-footer pb10 pt10">
+
+  <mj-column mj-class="views-footer__column"
+              css-class="views-footer__column">
+        <mj-social mj-class="views-footer__social"
+                   css-class="views-footer__social">
+          <mj-social-element src="https://i.postimg.cc/8kXsNSNw/img-tech-facebook.png" href="https://mjml.io/"/>
+          <mj-social-element src="https://i.postimg.cc/J7F7S552/img-tech-twitter.png" href="https://mjml.io/" />
+          <mj-social-element src="https://i.postimg.cc/HLmkBW9W/img-tech-instagram.png" href="https://mjml.io/"/>
+          <mj-social-element src="https://i.postimg.cc/Jn44CTF9/img-tech-linkedin.png" href="https://mjml.io/"/>
+        </mj-social>
+  </mj-column>
+  <mj-column mj-class="views-footer__column"
+              css-class="views-footer__column">
+
+        <mj-text mj-class="views-footer__copyright"
+            css-class="views-footer__copyright">
+                Made with pain by&nbsp;<a href="https://github.com/lmironvish">lmironvish</a>.
+        </mj-text>
+
+  </mj-column >
+
+</mj-section>
