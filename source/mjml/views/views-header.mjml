@@ -1,19 +1,24 @@
 <mj-section mj-class="views-header"
           css-class="views-header">
 
-  <mj-column mj-class="views-header__column container"
-            css-class="views-header__column container">
+  <mj-column mj-class="views-header__column"
+            css-class="views-header__column">
 
     <mj-text mj-class="views-header__text"
             css-class="views-header__text">
-      <p>The blackfriday day is&nbsp;coming</p>
+            <span>LABOR DAY</span>
     </mj-text>
 
     <mj-text mj-class="views-header__caption"
             css-class="views-header__caption">
-            <span style="color: #fde4ac;">Black</span>
-            <span>friday</span>
+            WEEKEND SALE
     </mj-text>
+
+    <mj-button mj-class="views-header__btn"
+              css-class="views-header__btn"
+              href="#">
+        Shop now
+    </mj-button>
 
     <mj-image mj-class="views-header__img alt-img"
               css-class="views-header__img alt-img"
@@ -22,11 +27,12 @@
               title="{{{views-header__img.title}}}"
               alt="{{{views-header__img.alt}}}" />
 
-    <mj-button mj-class="views-header__btn"
-              css-class="views-header__btn"
-              href="#">
-        This 29 november get 30% off
-    </mj-button>
+    <mj-image mj-class="views-header__img-div alt-img"
+              css-class="views-header__img-div alt-img"
+
+              src="{{{views-header__img-div.src}}}"
+              title="{{{views-header__img-div.title}}}"
+              alt="{{{views-header__img-div.alt}}}" />
 
   </mj-column>
 

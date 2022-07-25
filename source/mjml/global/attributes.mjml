@@ -80,5 +80,66 @@
 
   <!-- blocks -->
 
+  <!-- background -->
+
+  <mj-class name="wrapper"                   background-url="https://i.postimg.cc/W3XzDRrN/img-guitar-main-bg.jpg"
+                                             background-position="left bottom"
+                                             background-repeat="no-repeat"
+                                             background-size="50%"
+                                             width="100%"/>
+
+  <!-- title -->
+
+  <mj-class name="views-title"               background-color="#dfdfdf" />
+
+  <mj-class name="views-title__img"          width="120px" />
+
+  <!-- header -->
+
+  <mj-class name="views-header"              background-color="#dfdfdf"/>
+
+  <mj-class name="views-header__img"         width="600px"
+                                             padding-top="10px"/>
+
+  <mj-class name="views-header__text"        font-family="Oswald, Verdana, sans-serif"
+                                             font-size="38px"
+                                             font-style="normal"
+                                             font-weight="400"
+                                             line-height="38px"
+                                             text-align="center"
+                                             text-transform="uppercase"
+                                             color="#202020"
+                                             padding-bottom="0px"
+                                             padding-top="10px"
+                                             padding-left="20px"
+                                             padding-right="20px"/>
+
+  <mj-class name="views-header__caption"     font-family="Oswald, Verdana, sans-serif"
+                                             font-size="46px"
+                                             font-style="normal"
+                                             font-weight="700"
+                                             line-height="46px"
+                                             text-align="center"
+                                             text-transform="uppercase"
+                                             color="#d6383d"
+                                             padding-bottom="10px"
+                                             padding-top="0px"
+                                             padding-left="20px"
+                                             padding-right="20px"/>
+
+  <mj-class name="views-header__btn"         font-family="Verdana, Geneva, sans-serif"
+                                             font-size="16px"
+                                             font-size="normal"
+                                             font-weight="700"
+                                             line-height="26px"
+                                             text-align="center"
+                                             border-radius="0px"
+                                             text-transform="uppercase"
+                                             background-color="#202020"
+                                             color="#efefef"
+                                             padding="10px 20px"/>
+
+  <mj-class name="views-header__img-div"     padding="20px 0px"/>
+
 
 </mj-attributes>

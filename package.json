@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-email-mjml",
+  "name": "learn-email-mjml-guitar",
   "version": "1.0.0",
-  "description": "boilerplate-email-mjml",
+  "description": "learn-email-mjml-guitar",
   "private": true,
   "devDependencies": {
     "browser-sync": "^2.27.10",

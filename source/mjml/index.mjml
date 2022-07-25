@@ -25,13 +25,18 @@
   </mj-head>
 
   <mj-body css-class="body"
-           background-color="#000000">
+           background-color="#202020">
 
-  <mj-include path="views/views-title.mjml" />
+  <mj-wrapper mj-class="wrapper"
+              css-class="wrapper">
 
-  <mj-include path="views/views-header.mjml" />
+    <mj-include path="views/views-title.mjml" />
 
-  <mj-include path="views/views-footer.mjml" />
+    <mj-include path="views/views-header.mjml" />
+
+    <mj-include path="views/views-footer.mjml" />
+
+  </mj-wrapper>
 
   </mj-body>
 

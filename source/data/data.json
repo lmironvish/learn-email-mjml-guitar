@@ -8,47 +8,31 @@
   },
 
   "views-title__img": {
-    "src": "https://i.postimg.cc/V6GsfqQ5/img-tech-logo.png",
+    "src": "https://i.postimg.cc/1tPVncjH/img-guitar-logo.png",
     "href": "https://www.google.com/",
     "title": "text",
     "alt": "text"
   },
 
   "views-header__img": {
-    "src": "https://i.postimg.cc/ZK9nqMqm/img-tech-headphones-1.jpg",
+    "src": "https://i.postimg.cc/Nj9HW0X1/img-guitar-header-image.jpg",
     "title": "text",
     "alt": "text"
   },
 
-  "views-new-product__img": {
-    "src": "https://i.postimg.cc/tCVRbnrC/img-tech-quadrocopter.jpg",
+  "views-header__img-div": {
+    "src": "https://i.postimg.cc/vZV40NRh/img-guitar-separator.png",
     "title": "text",
     "alt": "text"
   },
 
-  "views-three-col__img-cam": {
-    "src": "https://i.postimg.cc/SRHy8mKh/img-tech-product-2.jpg",
+  "views-tile__img-guitar": {
+    "src": "https://i.postimg.cc/gJDXvL9P/img-guitar-product-1.jpg",
     "title": "text",
     "alt": "text"
   },
 
-  "views-three-col__img-hf": {
-    "src": "https://i.postimg.cc/N0xfVhd6/img-tech-headphones-2.jpg",
-    "title": "text",
-    "alt": "text"
-  },
 
-  "views-three-col__img-tel": {
-    "src": "https://i.postimg.cc/tJsqYspk/img-tech-product-1.jpg",
-    "title": "text",
-    "alt": "text"
-  },
-
-  "views-vr__img": {
-    "src": "https://i.postimg.cc/NjqsjGV8/img-tech-vr.jpg",
-    "title": "text",
-    "alt": "text"
-  },
 
   "button--1": {
     "src": "",
