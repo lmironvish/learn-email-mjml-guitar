@@ -64,8 +64,8 @@
 
 </mj-section>
 
-<mj-section mj-class="views-best-disc pt10 pb10"
-          css-class="views-best-disc pt10 pb10">
+<mj-section mj-class="views-best-disc pt10 pb20"
+          css-class="views-best-disc pt10 pb20">
 
   <mj-column mj-class="views-best-disc__column"
             css-class="views-best-disc__column">

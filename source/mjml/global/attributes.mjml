@@ -213,4 +213,40 @@
                                                    color="#efefef"
                                                    padding="10px 20px"/>
 
+  <!-- category -->
+
+  <mj-class name="views-category"                  background-color="#202020"/>
+
+  <mj-class name="views-category__caption"         font-family="Oswald, Verdana, Geneva, sans-serif"
+                                                   font-size="22px"
+                                                   font-style="normal"
+                                                   font-weight="700"
+                                                   line-height="34px"
+                                                   text-align="center"
+                                                   text-transform="uppercase"
+                                                   color="#efefef"
+                                                   padding-top="14px"
+                                                   padding-left="20px"
+                                                   padding-right="20px"
+                                                   padding-bottom="0px"/>
+
+  <mj-class name="views-category__btn"             font-family="Verdana, Geneva, sans-serif"
+                                                   font-size="14px"
+                                                   font-size="normal"
+                                                   font-weight="700"
+                                                   line-height="22px"
+                                                   text-align="center"
+                                                   border="1px solid #ffffff"
+                                                   background-color="#202020"
+                                                   color="#efefef"
+                                                   padding="10px"
+                                                   inner-padding="10px 20px"
+                                                   width="173px"/>
+
+  <mj-class name="views-category__btns"            padding-top="4px"
+                                                   padding-right="10px"
+                                                   padding-left="10px"
+                                                   padding-bottom="30px"
+                                                   background-color="#202020"/>
+
 </mj-attributes>

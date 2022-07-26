@@ -18,6 +18,11 @@
   background-color: #d6383d !important;
 }
 
+.views-category__btn > table > tbody :hover{
+  background-color: #d6383d !important;
+  color: #ffffff !important;
+}
+
 .views-header__btn > table > tbody :hover{
   background-color: #d6383d !important;
 }
