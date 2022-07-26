@@ -249,4 +249,37 @@
                                                    padding-bottom="30px"
                                                    background-color="#202020"/>
 
+
+  <!-- footer -->
+
+  <mj-class name="views-footer"                    background-color="#efefef"/>
+
+  <mj-class name="views-footer__advantages"        background-color="#efefef"
+                                                   padding-bottom="4px"
+                                                   padding-left="10px"
+                                                   padding-right="10px"/>
+
+  <mj-class name="views-footer__img-students"      width="40px"
+                                                   padding="10px"/>
+
+  <mj-class name="views-footer__img-delivery"      width="40px"
+                                                   padding="10px"/>
+
+  <mj-class name="views-footer__img-return"        width="40px"
+                                                   padding="10px"/>
+
+  <mj-class name="views-footer__caption"           font-family="Verdana, Geneva, sans-serif"
+                                                   font-size="12px"
+                                                   font-style="normal"
+                                                   font-weight="700"
+                                                   line-height="20px"
+                                                   text-align="center"
+                                                   text-transform="uppercase"
+                                                   color="#202020"
+                                                   padding-top="14px"
+                                                   padding-left="20px"
+                                                   padding-right="20px"
+                                                   padding-bottom="0px"/>
+
+
 </mj-attributes>

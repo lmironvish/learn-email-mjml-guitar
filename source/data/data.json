@@ -14,6 +14,7 @@
     "alt": "text"
   },
 
+
   "views-header__img": {
     "src": "https://i.postimg.cc/Nj9HW0X1/img-guitar-header-image.jpg",
     "title": "text",
@@ -68,7 +69,36 @@
     "alt": "text"
   },
 
+  "views-footer__img-div": {
+    "src": "https://i.postimg.cc/vZV40NRh/img-guitar-separator.png",
+    "title": "text",
+    "alt": "text"
+  },
 
+  "views-footer__img-students": {
+    "src": "https://i.postimg.cc/TPvpFJf6/img-guitar-students.png",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-footer__img-delivery": {
+    "src": "https://i.postimg.cc/qq1KdhQG/img-guitar-delivery.png",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-footer__img-return": {
+    "src": "https://i.postimg.cc/KvVKryW4/img-guitar-returns.png",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-footer__img-logo": {
+    "src": "https://i.postimg.cc/1tPVncjH/img-guitar-logo.png",
+    "href": "https://www.google.com/",
+    "title": "text",
+    "alt": "text"
+  },
 
   "button--1": {
     "src": "",
