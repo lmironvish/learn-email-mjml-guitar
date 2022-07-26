@@ -71,6 +71,36 @@
     max-width: 87% !important;
   }
 
+  .off_percent{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d6383d;
+  }
+
+  .new_price{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #d6383d;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+
+  .caption{
+    font-family: Oswald, Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #202020;
+}
+
 
   /* blocks */
 

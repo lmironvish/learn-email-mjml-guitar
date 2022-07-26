@@ -1,11 +1,11 @@
-<mj-section mj-class="views-title"
-          css-class="views-title">
+<mj-section mj-class="views-title pt10"
+          css-class="views-title pt10">
 
   <mj-column mj-class="views-title__column"
             css-class="views-title__column">
 
-    <mj-image mj-class="views-title__img pt10 pb20 alt-img"
-              css-class="views-title__img pt10 pb20 alt-img"
+    <mj-image mj-class="views-title__img pt10 pb10 alt-img"
+              css-class="views-title__img pt10 pb10 alt-img"
 
               src="{{{views-title__img.src}}}"
               href="{{{views-title__img.href}}}"

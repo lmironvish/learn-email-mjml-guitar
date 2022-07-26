@@ -10,6 +10,19 @@
 }
 
 
+.views-tile__btn > table > tbody :hover{
+  color: #d6383d !important;
+}
+
+.views-best-disc__btn > table > tbody :hover{
+  background-color: #d6383d !important;
+}
+
+.views-header__btn > table > tbody :hover{
+  background-color: #d6383d !important;
+}
+
+
 /* media */
 
 @media screen and (max-width: 479px) {

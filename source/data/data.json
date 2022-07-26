@@ -32,6 +32,42 @@
     "alt": "text"
   },
 
+  "views-tile__img-piano": {
+    "src": "https://i.postimg.cc/FzHfGFmk/img-guitar-product-2.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-tile__img-mic": {
+    "src": "https://i.postimg.cc/D0pSNVyj/img-guitar-product-3.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-best-disc__img-prev-guitar": {
+    "src": "https://i.postimg.cc/gcgLjhqV/img-guitar-product-photo-1.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-best-disc__img-guitar": {
+    "src": "https://i.postimg.cc/bNFnCnZy/img-guitar-guitar.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-best-disc__img-prev-drums": {
+    "src": "https://i.postimg.cc/QxV9TM0R/img-guitar-product-photo-2.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-best-disc__img-drums": {
+    "src": "https://i.postimg.cc/zD7Kh65R/img-guitar-drums.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
 
 
   "button--1": {

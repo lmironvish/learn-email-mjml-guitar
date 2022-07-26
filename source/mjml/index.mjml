@@ -36,6 +36,8 @@
 
     <mj-include path="views/views-tile.mjml" />
 
+    <mj-include path="views/views-best-disc.mjml" />
+
     <mj-include path="views/views-footer.mjml" />
 
   </mj-wrapper>
