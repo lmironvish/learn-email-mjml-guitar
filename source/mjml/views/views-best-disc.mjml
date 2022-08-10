@@ -16,14 +16,13 @@
 <mj-section mj-class="views-best-disc pt10 pb10"
           css-class="views-best-disc pt10 pb10">
 
-  <mj-column mj-class="views-best-disc__column"
-            css-class="views-best-disc__column">
+  <mj-column mj-class="views-best-disc__column-prev-img"
+            css-class="views-best-disc__column-prev-img">
 
     <mj-image mj-class="views-best-disc__img-prev alt-img"
               css-class="views-best-disc__img-prev alt-img"
 
               src="{{{views-best-disc__img-prev-guitar.src}}}"
-              href="{{{views-best-disc__img-prev-guitar.href}}}"
               title="{{{views-best-disc__img-prev-guitar.title}}}"
               alt="{{{views-best-disc__img-prev-guitar.alt}}}" />
   </mj-column>
@@ -39,8 +38,8 @@
               title="{{{views-best-disc__img-guitar.title}}}"
               alt="{{{views-best-disc__img-guitar.alt}}}" />
 
-  <mj-text mj-class="views-best-disc_text"
-            css-class="views-best-disc_text">
+  <mj-text mj-class="views-best-disc__text"
+            css-class="views-best-disc__text">
             <span class="off_percent">20% OFF</span>
     </mj-text>
 
@@ -50,8 +49,8 @@
 
     </mj-text>
 
-  <mj-text mj-class="views-best-disc_text"
-            css-class="views-best-disc_text">
+  <mj-text mj-class="views-best-disc__text"
+            css-class="views-best-disc__text">
             <span style="font-size: 14px;">Price: <span style="text-decoration: line-through">$100</span> <span class="new_price">$80</span></span>
   </mj-text>
 
@@ -67,14 +66,13 @@
 <mj-section mj-class="views-best-disc pt10 pb20"
           css-class="views-best-disc pt10 pb20">
 
-  <mj-column mj-class="views-best-disc__column"
-            css-class="views-best-disc__column">
+  <mj-column mj-class="views-best-disc__column-prev-img"
+            css-class="views-best-disc__column-prev-img">
 
     <mj-image mj-class="views-best-disc__img-prev alt-img"
               css-class="views-best-disc__img-prev alt-img"
 
               src="{{{views-best-disc__img-prev-drums.src}}}"
-              href="{{{views-best-disc__img-prev-drums.href}}}"
               title="{{{views-best-disc__img-prev-drums.title}}}"
               alt="{{{views-best-disc__img-prev-drums.alt}}}" />
   </mj-column>
@@ -90,8 +88,8 @@
               title="{{{views-best-disc__img-drums.title}}}"
               alt="{{{views-best-disc__img-drums.alt}}}" />
 
-  <mj-text mj-class="views-best-disc_text"
-            css-class="views-best-disc_text">
+  <mj-text mj-class="views-best-disc__text"
+            css-class="views-best-disc__text">
             <span class="off_percent">50% OFF</span>
     </mj-text>
 
@@ -101,8 +99,8 @@
 
     </mj-text>
 
-  <mj-text mj-class="views-best-disc_text"
-            css-class="views-best-disc_text">
+  <mj-text mj-class="views-best-disc__text"
+            css-class="views-best-disc__text">
             <span style="font-size: 14px;">Price: <span style="text-decoration: line-through">$100</span>  <span class="new_price">$50</span></span>
 
     </mj-text>

@@ -36,8 +36,8 @@
 </mj-section>
 
 <mj-section>
-        <mj-column mj-class="views-tile__column sep"
-                   css-class="views-tile__column sep">
+        <mj-column mj-class="views-tile__column-sep"
+                   css-class="views-tile__column-sep">
 
   </mj-column>
 </mj-section>
@@ -79,8 +79,8 @@
 </mj-section>
 
 <mj-section>
-        <mj-column mj-class="views-tile__column sep"
-                   css-class="views-tile__column sep">
+        <mj-column mj-class="views-tile__column-sep"
+                   css-class="views-tile__column-sep">
 
   </mj-column>
 </mj-section>

@@ -78,6 +78,30 @@
   <mj-class name="pt50"                      padding-top="50px" />
   <mj-class name="pt60"                      padding-top="60px" />
 
+  <!-- padding-left -->
+
+  <mj-class name="pl0"                       padding-left="0px" />
+  <mj-class name="pl10"                      padding-left="10px" />
+  <mj-class name="pl15"                      padding-left="15px" />
+  <mj-class name="pl20"                      padding-left="20px" />
+  <mj-class name="pl25"                      padding-left="25px" />
+  <mj-class name="pl30"                      padding-left="30px" />
+  <mj-class name="pl40"                      padding-left="40px" />
+  <mj-class name="pl50"                      padding-left="50px" />
+  <mj-class name="pl60"                      padding-left="60px" />
+
+  <!-- padding-right -->
+
+  <mj-class name="pr0"                       padding-right="0px" />
+  <mj-class name="pr10"                      padding-right="10px" />
+  <mj-class name="pr15"                      padding-right="15px" />
+  <mj-class name="pr20"                      padding-right="20px" />
+  <mj-class name="pr25"                      padding-right="25px" />
+  <mj-class name="pr30"                      padding-right="30px" />
+  <mj-class name="pr40"                      padding-right="40px" />
+  <mj-class name="pr50"                      padding-right="50px" />
+  <mj-class name="pr60"                      padding-right="60px" />
+
   <!-- blocks -->
 
   <!-- background -->
@@ -150,7 +174,8 @@
                                              line-height="34px"
                                              text-align="center"
                                              text-transform="uppercase"
-                                             color="#efefef"/>
+                                             color="#efefef"
+                                             padding="4px 20px"/>
 
   <mj-class name="views-tile_text"           font-family="Verdana, Geneva, sans-serif"
                                              font-size="18px"
@@ -158,7 +183,8 @@
                                              font-weight="700"
                                              line-height="28px"
                                              text-align="center"
-                                             color="#efefef"/>
+                                             color="#efefef"
+                                             padding="5px 20px"/>
 
   <mj-class name="views-tile__btn"           font-family="Verdana, Geneva, sans-serif"
                                              font-size="16px"
@@ -169,26 +195,30 @@
                                              border-radius="0px"
                                              text-transform="uppercase"
                                              background-color="#202020"
-                                             color="#efefef"/>
+                                             color="#efefef"
+                                             padding="10px 20px"/>
 
   <mj-class name="views-tile"                background-color="#d6383d"
                                              color="#efefef"/>
 
   <mj-class name="views-tile__column"        vertical-align="middle"/>
 
-  <mj-class name="sep"                       background-color="#efefef"
+  <mj-class name="views-tile__column-sep"    background-color="#efefef"
                                              padding-bottom="20px"/>
 
   <mj-class name="rtl"                       direction="rtl"/>
 
   <!-- best discounts -->
 
-  <mj-class name="views-best-disc"                 background-color="#efefef"/>
+  <mj-class name="views-best-disc"                 background-color="#efefef"
+                                                   align="center"/>
 
-  <mj-class name="views-best-disc__column"         width="300px"/>
+  <mj-class name="views-best-disc__column"         width="220px"
+                                                   align="center"/>
 
-  <mj-class name="views-best-disc__img-prev"       width="220px"
-                                                   />
+  <mj-class name="views-best-disc__img-prev"       align="center"/>
+
+  <mj-class name="views-best-disc__column-prev-img"       align="center"/>
 
   <mj-class name="views-best-disc__img"            width="180px"
                                                    padding="10px"/>
@@ -215,6 +245,10 @@
                                                    color="#efefef"
                                                    padding="10px 20px"/>
 
+  <mj-class name="views-best-disc__text"           padding="6px 20px"/>
+
+  <mj-class name="views-best-disc__caption"        padding="5px 20px"/>
+
   <!-- category -->
 
   <mj-class name="views-category"                  background-color="#202020"/>
@@ -230,7 +264,7 @@
                                                    padding-top="14px"
                                                    padding-left="20px"
                                                    padding-right="20px"
-                                                   padding-bottom="0px"/>
+                                                   padding-bottom="4px"/>
 
   <mj-class name="views-category__btn"             font-family="Verdana, Geneva, sans-serif"
                                                    font-size="14px"
@@ -243,18 +277,16 @@
                                                    color="#efefef"
                                                    padding="10px"
                                                    inner-padding="10px 20px"
-                                                   width="173px"/>
+                                                   width="100%"/>
 
-  <mj-class name="views-category__btns"            padding-top="4px"
-                                                   padding-right="10px"
-                                                   padding-left="10px"
-                                                   padding-bottom="30px"
+  <mj-class name="views-category__column-btns"     width="193px"
                                                    background-color="#202020"/>
 
 
   <!-- footer -->
 
-  <mj-class name="views-footer"                    background-color="#efefef"/>
+  <mj-class name="views-footer"                    background-color="#efefef"
+                                                   vertical-align="middle"/>
 
   <mj-class name="views-footer__advantages"        background-color="#efefef"
                                                    padding-bottom="4px"
@@ -271,7 +303,7 @@
                                                    padding="10px"/>
 
   <mj-class name="views-footer__img-logo"          width="120px"
-                                                   padding="10px 20px"
+                                                   padding="5px 15px"
                                                    align="left"/>
 
   <mj-class name="views-footer__caption"           font-family="Verdana, Geneva, sans-serif"
@@ -288,9 +320,12 @@
                                                    padding-right="10px"/>
 
   <mj-class name="views-footer__social"            icon-size="32px"
-                                                   align="right"/>
+                                                   align="right"
+                                                   padding="5px 15px"
+                                                   inner-padding="4px"/>
 
-  <mj-class name="views-footer__column-social"     width="300px"/>
+  <mj-class name="views-footer__column-social"     width="300px"
+                                                   vertical-align="middle"/>
 
 
   <mj-class name="views-footer__copyright"         font-family="Verdana, Geneva, sans-serif"

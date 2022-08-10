@@ -1,108 +1,108 @@
 <mj-section mj-class="views-footer"
             css-class="views-footer">
 
-  <mj-column mj-class="views-footer__column pb10 pt10"
-              css-class="views-footer__column pb10 pt10">
+      <mj-column mj-class="views-footer__column pb10 pt10"
+                  css-class="views-footer__column pb10 pt10">
 
-      <mj-image mj-class="views-footer__img-div alt-img pb10 pt10"
-            css-class="views-footer__img-div alt-img pb10 pt10"
+            <mj-image mj-class="views-footer__img-div alt-img pb10 pt10"
+                  css-class="views-footer__img-div alt-img pb10 pt10"
 
-            src="{{{views-footer__img-div.src}}}"
-            title="{{{views-footer__img-div.title}}}"
-            alt="{{{views-footer__img-div.alt}}}" />
+                  src="{{{views-footer__img-div.src}}}"
+                  title="{{{views-footer__img-div.title}}}"
+                  alt="{{{views-footer__img-div.alt}}}" />
 
-  </mj-column >
+      </mj-column >
 
 </mj-section>
 
 <mj-section mj-class="views-footer__advantages"
             css-class="views-footer__advantages">
 
-<mj-group>
-  <mj-column mj-class="views-footer__column-delivery"
-              css-class="views-footer__column-delivery">
+      <mj-group>
+            <mj-column mj-class="views-footer__column-delivery"
+                        css-class="views-footer__column-delivery">
 
 
-      <mj-image mj-class="views-footer__img-delivery alt-img"
-      css-class="views-footer__img-delivery alt-img"
+                  <mj-image mj-class="views-footer__img-delivery alt-img"
+                  css-class="views-footer__img-delivery alt-img"
 
-      src="{{{views-footer__img-delivery.src}}}"
-      title="{{{views-footer__img-delivery.title}}}"
-      alt="{{{views-footer__img-delivery.alt}}}" />
+                  src="{{{views-footer__img-delivery.src}}}"
+                  title="{{{views-footer__img-delivery.title}}}"
+                  alt="{{{views-footer__img-delivery.alt}}}" />
 
-      <mj-text mj-class="views-footer__caption"
-               css-class="views-footer__caption">
-            FREE DELIVERY
-      </mj-text>
-
-
-  </mj-column >
-
-  <mj-column mj-class="views-footer__column-students"
-              css-class="views-footer__column-students">
-
-      <mj-image mj-class="views-footer__img-students alt-img"
-      css-class="views-footer__img-students alt-img"
-
-      src="{{{views-footer__img-students.src}}}"
-      title="{{{views-footer__img-students.title}}}"
-      alt="{{{views-footer__img-students.alt}}}" />
-
-      <mj-text mj-class="views-footer__caption"
-               css-class="views-footer__caption">
-            STUDENTS 10% OFF
-      </mj-text>
-
-  </mj-column >
-
-  <mj-column mj-class="views-footer__column-return"
-              css-class="views-footer__column-return">
-
-      <mj-image mj-class="views-footer__img-return alt-img"
-      css-class="views-footer__img-return alt-img"
-
-      src="{{{views-footer__img-return.src}}}"
-      title="{{{views-footer__img-return.title}}}"
-      alt="{{{views-footer__img-return.alt}}}" />
-
-      <mj-text mj-class="views-footer__caption"
-               css-class="views-footer__caption">
-            FREE RETURNS
-      </mj-text>
-
-  </mj-column >
+                  <mj-text mj-class="views-footer__caption"
+                        css-class="views-footer__caption">
+                        FREE DELIVERY
+                  </mj-text>
 
 
-</mj-group>
+            </mj-column >
+
+            <mj-column mj-class="views-footer__column-students"
+                        css-class="views-footer__column-students">
+
+                  <mj-image mj-class="views-footer__img-students alt-img"
+                  css-class="views-footer__img-students alt-img"
+
+                  src="{{{views-footer__img-students.src}}}"
+                  title="{{{views-footer__img-students.title}}}"
+                  alt="{{{views-footer__img-students.alt}}}" />
+
+                  <mj-text mj-class="views-footer__caption"
+                        css-class="views-footer__caption">
+                        STUDENTS 10% OFF
+                  </mj-text>
+
+            </mj-column >
+
+            <mj-column mj-class="views-footer__column-return"
+                        css-class="views-footer__column-return">
+
+                  <mj-image mj-class="views-footer__img-return alt-img"
+                  css-class="views-footer__img-return alt-img"
+
+                  src="{{{views-footer__img-return.src}}}"
+                  title="{{{views-footer__img-return.title}}}"
+                  alt="{{{views-footer__img-return.alt}}}" />
+
+                  <mj-text mj-class="views-footer__caption"
+                        css-class="views-footer__caption">
+                        FREE RETURNS
+                  </mj-text>
+
+            </mj-column >
+
+
+      </mj-group>
 </mj-section>
 
 <mj-section mj-class="views-footer pb10 pt10"
             css-class="views-footer pb10 pt10">
 
-  <mj-column mj-class="views-footer__column-social"
-              css-class="views-footer__column-social">
+      <mj-column mj-class="views-footer__column-social"
+                  css-class="views-footer__column-social">
 
-      <mj-image mj-class="views-footer__img-logo alt-img"
-            css-class="views-footer__img-logo alt-img"
+            <mj-image mj-class="views-footer__img-logo alt-img"
+                  css-class="views-footer__img-logo alt-img"
 
-            src="{{{views-footer__img-logo.src}}}"
-            title="{{{views-footer__img-logo.title}}}"
-            alt="{{{views-footer__img-logo.alt}}}" />
+                  src="{{{views-footer__img-logo.src}}}"
+                  title="{{{views-footer__img-logo.title}}}"
+                  alt="{{{views-footer__img-logo.alt}}}" />
 
-  </mj-column >
+      </mj-column >
 
-<mj-column mj-class="views-footer__column-social"
-            css-class="views-footer__column-social">
+      <mj-column mj-class="views-footer__column-social"
+                  css-class="views-footer__column-social">
 
-        <mj-social mj-class="views-footer__social"
-                   css-class="views-footer__social">
+            <mj-social mj-class="views-footer__social"
+                        css-class="views-footer__social">
 
-          <mj-social-element src="https://i.postimg.cc/BQvDBpQ7/img-guitar-facebook.png" href="https://mjml.io/"/>
-          <mj-social-element src="https://i.postimg.cc/9fyqQNJ0/img-guitar-instagram.png" href="https://mjml.io/"/>
-          <mj-social-element src="https://i.postimg.cc/yNhkH38S/img-guitar-twitter.png" href="https://mjml.io/" />
+            <mj-social-element src="https://i.postimg.cc/BQvDBpQ7/img-guitar-facebook.png" href="https://mjml.io/"/>
+            <mj-social-element src="https://i.postimg.cc/9fyqQNJ0/img-guitar-instagram.png" href="https://mjml.io/"/>
+            <mj-social-element src="https://i.postimg.cc/yNhkH38S/img-guitar-twitter.png" href="https://mjml.io/" />
 
-        </mj-social>
-  </mj-column>
+            </mj-social>
+      </mj-column>
 
 </mj-section>
 

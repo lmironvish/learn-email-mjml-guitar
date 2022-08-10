@@ -13,11 +13,11 @@
 
 </mj-section>
 
-<mj-section mj-class="views-category__btns"
-          css-class="views-category__btns">
+<mj-section mj-class="views-category pb30 pr10 pl10"
+          css-class="views-category pb30 pr10 pl10">
 
-  <mj-column mj-class="views-category__column"
-            css-class="views-category__column">
+  <mj-column mj-class="views-category__column-btns"
+            css-class="views-category__column-btns">
 
     <mj-button mj-class="views-category__btn first"
               css-class="views-category__btn first"
@@ -39,8 +39,8 @@
 
   </mj-column>
 
-  <mj-column mj-class="views-category__column"
-            css-class="views-category__column">
+  <mj-column mj-class="views-category__column-btns"
+            css-class="views-category__column-btns">
 
     <mj-button mj-class="views-category__btn"
               css-class="views-category__btn"
@@ -62,8 +62,8 @@
 
   </mj-column>
 
-  <mj-column mj-class="views-category__column"
-            css-class="views-category__column">
+  <mj-column mj-class="views-category__column-btns"
+            css-class="views-category__column-btns">
 
     <mj-button mj-class="views-category__btn"
               css-class="views-category__btn"

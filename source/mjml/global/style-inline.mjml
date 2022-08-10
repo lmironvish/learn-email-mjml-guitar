@@ -72,41 +72,78 @@
   }
 
   .off_percent{
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 22px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #d6383d;
+    font-family: Verdana, Geneva, sans-serif !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 22px !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    color: #d6383d !important;
   }
 
   .new_price{
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 700;
-    color: #d6383d;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
+    font-weight: 700 !important;
+    color: #d6383d !important;
   }
 
   .caption{
-    font-family: Oswald, Verdana, Geneva, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 28px;
-    text-align: center;
-    color: #202020;
+    font-family: Oswald, Verdana, Geneva, sans-serif !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 28px !important;
+    text-align: center !important;
+    color: #202020 !important;
 }
 
   .views-footer__img-students{
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;
+    border-left: 1px solid #000000 !important;
+    border-right: 1px solid #000000 !important;
 }
 
 
+.views-best-disc__img-prev img{
+  width: 220px !important;
+  max-width: 220px !important;
+}
+
+.views-best-disc__column-img-prev{
+  width: 220px !important;
+  max-width: 220px !important;
+}
+
+.views-tile__img img {
+  width: 300px !important;
+  max-width: 300px !important;
+}
+
+.views-best-disc__column-prev-img {
+  width: 300px !important;
+  max-width: 300px !important;
+}
+
+.views-best-disc__column {
+  width: 300px !important;
+  max-width: 300px !important;
+}
+
+.views-tile__column {
+  width: 300px !important;
+  max-width: 300px !important;
+}
+
+.views-category__column-btns {
+  width: 193px !important;
+  max-width: 193px !important;
+}
+.views-footer__column-social {
+  width: 300px !important;
+  max-width: 300px !important;
+}
   /* blocks */
 
 
