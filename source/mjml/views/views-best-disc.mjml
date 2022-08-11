@@ -16,11 +16,11 @@
 <mj-section mj-class="views-best-disc pt10 pb10"
           css-class="views-best-disc pt10 pb10">
 
-  <mj-column mj-class="views-best-disc__column-prev-img"
-            css-class="views-best-disc__column-prev-img">
+  <mj-column mj-class="views-best-disc__column"
+            css-class="views-best-disc__column">
 
-    <mj-image mj-class="views-best-disc__img-prev alt-img"
-              css-class="views-best-disc__img-prev alt-img"
+    <mj-image mj-class="views-best-disc__img-prev"
+              css-class="views-best-disc__img-prev"
 
               src="{{{views-best-disc__img-prev-guitar.src}}}"
               title="{{{views-best-disc__img-prev-guitar.title}}}"
@@ -30,8 +30,8 @@
   <mj-column mj-class="views-best-disc__column"
             css-class="views-best-disc__column">
 
-    <mj-image mj-class="views-best-disc__img alt-img"
-              css-class="views-best-disc__imgalt-img"
+    <mj-image mj-class="views-best-disc__img"
+              css-class="views-best-disc__im"
 
               src="{{{views-best-disc__img-guitar.src}}}"
               href="{{{views-best-disc__img-guitar.href}}}"
@@ -66,11 +66,11 @@
 <mj-section mj-class="views-best-disc pt10 pb20"
           css-class="views-best-disc pt10 pb20">
 
-  <mj-column mj-class="views-best-disc__column-prev-img"
-            css-class="views-best-disc__column-prev-img">
+  <mj-column mj-class="views-best-disc__column"
+            css-class="views-best-disc__column">
 
-    <mj-image mj-class="views-best-disc__img-prev alt-img"
-              css-class="views-best-disc__img-prev alt-img"
+    <mj-image mj-class="views-best-disc__img-prev"
+              css-class="views-best-disc__img-prev"
 
               src="{{{views-best-disc__img-prev-drums.src}}}"
               title="{{{views-best-disc__img-prev-drums.title}}}"
@@ -80,8 +80,8 @@
   <mj-column mj-class="views-best-disc__column"
             css-class="views-best-disc__column">
 
-    <mj-image mj-class="views-best-disc__img alt-img"
-              css-class="views-best-disc__img alt-img"
+    <mj-image mj-class="views-best-disc__img"
+              css-class="views-best-disc__img"
 
               src="{{{views-best-disc__img-drums.src}}}"
               href="{{{views-best-disc__img-drums.href}}}"

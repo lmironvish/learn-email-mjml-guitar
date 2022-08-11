@@ -4,8 +4,8 @@
       <mj-column mj-class="views-footer__column pb10 pt10"
                   css-class="views-footer__column pb10 pt10">
 
-            <mj-image mj-class="views-footer__img-div alt-img pb10 pt10"
-                  css-class="views-footer__img-div alt-img pb10 pt10"
+            <mj-image mj-class="views-footer__img-div pb10 pt10"
+                  css-class="views-footer__img-div pb10 pt10"
 
                   src="{{{views-footer__img-div.src}}}"
                   title="{{{views-footer__img-div.title}}}"
@@ -23,8 +23,8 @@
                         css-class="views-footer__column-delivery">
 
 
-                  <mj-image mj-class="views-footer__img-delivery alt-img"
-                  css-class="views-footer__img-delivery alt-img"
+                  <mj-image mj-class="views-footer__img-delivery"
+                  css-class="views-footer__img-delivery"
 
                   src="{{{views-footer__img-delivery.src}}}"
                   title="{{{views-footer__img-delivery.title}}}"
@@ -41,8 +41,8 @@
             <mj-column mj-class="views-footer__column-students"
                         css-class="views-footer__column-students">
 
-                  <mj-image mj-class="views-footer__img-students alt-img"
-                  css-class="views-footer__img-students alt-img"
+                  <mj-image mj-class="views-footer__img-students"
+                  css-class="views-footer__img-students"
 
                   src="{{{views-footer__img-students.src}}}"
                   title="{{{views-footer__img-students.title}}}"
@@ -58,8 +58,8 @@
             <mj-column mj-class="views-footer__column-return"
                         css-class="views-footer__column-return">
 
-                  <mj-image mj-class="views-footer__img-return alt-img"
-                  css-class="views-footer__img-return alt-img"
+                  <mj-image mj-class="views-footer__img-return"
+                  css-class="views-footer__img-return"
 
                   src="{{{views-footer__img-return.src}}}"
                   title="{{{views-footer__img-return.title}}}"
@@ -82,8 +82,8 @@
       <mj-column mj-class="views-footer__column-social"
                   css-class="views-footer__column-social">
 
-            <mj-image mj-class="views-footer__img-logo alt-img"
-                  css-class="views-footer__img-logo alt-img"
+            <mj-image mj-class="views-footer__img-logo"
+                  css-class="views-footer__img-logo"
 
                   src="{{{views-footer__img-logo.src}}}"
                   title="{{{views-footer__img-logo.title}}}"

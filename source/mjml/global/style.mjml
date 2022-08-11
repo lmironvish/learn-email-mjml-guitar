@@ -18,7 +18,12 @@
   background-color: #d6383d !important;
 }
 
-.views-category__btn > table > tbody :hover{
+.views-category__btn > table > tbody :hover,
+.views-category__btn :hover a{
+  background-color: #d6383d !important;
+  color: #ffffff !important;
+}
+.cat-btns :hover{
   background-color: #d6383d !important;
   color: #ffffff !important;
 }
@@ -32,28 +37,22 @@
 
 @media screen and (max-width: 479px) {
 
-  .views-best-disc__img-prev img{
-    width: 300px !important;
-    max-width: 300px !important;
-  }
-
-  .views-tile__img img {
-    width: 300px !important;
-    max-width: 300px !important;
-
-  }
-
-  .views-best-disc__column-prev-img {
-    width: 300px !important;
-    max-width: 300px !important;
-  }
-
   .views-best-disc__column {
-    width: 300px !important;
-    max-width: 300px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .views-tile__column {
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
   .views-footer__column-social {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* .views-footer__column-social {
     width: 154px !important;
     max-width: 154px !important;
   }
@@ -61,31 +60,25 @@
   .views-category__column-btns {
     width: 280px !important;
     max-width: 280px !important;
-  }
+  } */
 
 }
 
 @media screen and (min-width: 480px) {
 
-  /* .views-best-disc__img-prev img{
-    width: 220px !important;
-    max-width: 220px !important;
-  } */
-
-  .views-tile__img img {
-    width: 300px !important;
-    max-width: 300px !important;
-
+  .views-best-disc__column {
+    width: 50% !important;
+    max-width: 50% !important;
   }
 
-  /* .views-best-disc__column-prev-img {
-    width: 220px !important;
-    max-width: 220px !important;
-  } */
+  .views-tile__column {
+    width: 50% !important;
+    max-width: 50% !important;
+  }
 
-  .views-best-disc__column {
-    width: 300px !important;
-    max-width: 300px !important;
+  .views-footer__column-social {
+    width: 50% !important;
+    max-width: 50% !important;
   }
 
 }

@@ -98,52 +98,38 @@
     line-height: 28px !important;
     text-align: center !important;
     color: #202020 !important;
-}
+  }
 
   .views-footer__img-students{
     border-left: 1px solid #000000 !important;
     border-right: 1px solid #000000 !important;
-}
+  }
 
+  .cat-btns{
+    display: inline-block !important;
+    padding: 10px 20px !important;
+  }
 
-.views-best-disc__img-prev img{
-  width: 220px !important;
-  max-width: 220px !important;
-}
+  .views-best-disc__column {
+    width: 50% !important;
+    max-width: 50% !important;
+  }
 
-.views-best-disc__column-img-prev{
-  width: 220px !important;
-  max-width: 220px !important;
-}
+  .views-tile__column {
+    width: 50% !important;
+    max-width: 50% !important;
+  }
 
-.views-tile__img img {
-  width: 300px !important;
-  max-width: 300px !important;
-}
+  .views-footer__column-social {
+    width: 50% !important;
+    max-width: 50% !important;
+  }
 
-.views-best-disc__column-prev-img {
-  width: 300px !important;
-  max-width: 300px !important;
-}
+  .views-category__btn{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 
-.views-best-disc__column {
-  width: 300px !important;
-  max-width: 300px !important;
-}
-
-.views-tile__column {
-  width: 300px !important;
-  max-width: 300px !important;
-}
-
-.views-category__column-btns {
-  width: 193px !important;
-  max-width: 193px !important;
-}
-.views-footer__column-social {
-  width: 300px !important;
-  max-width: 300px !important;
-}
   /* blocks */
 
 

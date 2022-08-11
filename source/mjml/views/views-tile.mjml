@@ -4,11 +4,10 @@
   <mj-column mj-class="views-tile__column"
             css-class="views-tile__column">
 
-    <mj-image mj-class="views-tile__img alt-img"
-              css-class="views-tile__img alt-img"
+    <mj-image mj-class="views-tile__img"
+              css-class="views-tile__img"
 
               src="{{{views-tile__img-guitar.src}}}"
-              href="{{{views-tile__img-guitar.href}}}"
               title="{{{views-tile__img-guitar.title}}}"
               alt="{{{views-tile__img-guitar.alt}}}" />
   </mj-column>
@@ -16,13 +15,13 @@
   <mj-column mj-class="views-tile__column"
             css-class="views-tile__column">
 
-    <mj-text mj-class="views-tile_caption"
-            css-class="views-tile_caption">
+    <mj-text mj-class="views-tile__caption"
+            css-class="views-tile__caption">
             GUITARS
     </mj-text>
 
-  <mj-text mj-class="views-tile_text"
-            css-class="views-tile_text">
+  <mj-text mj-class="views-tile__text"
+            css-class="views-tile__text">
             <span>35% off</span>
     </mj-text>
 
@@ -37,21 +36,19 @@
 
 <mj-section>
         <mj-column mj-class="views-tile__column-sep"
-                   css-class="views-tile__column-sep">
-
-  </mj-column>
+                   css-class="views-tile__column-sep"/>
 </mj-section>
+
 <mj-section mj-class="views-tile rtl"
           css-class="views-tile rtl">
 
   <mj-column mj-class="views-tile__column"
             css-class="views-tile__column">
 
-    <mj-image mj-class="views-tile__img alt-img"
-              css-class="views-tile__img alt-img"
+    <mj-image mj-class="views-tile__img"
+              css-class="views-tile__img"
 
               src="{{{views-tile__img-piano.src}}}"
-              href="{{{views-tile__img-piano.href}}}"
               title="{{{views-tile__img-piano.title}}}"
               alt="{{{views-tile__img-piano.alt}}}" />
   </mj-column>
@@ -59,13 +56,13 @@
   <mj-column mj-class="views-tile__column"
             css-class="views-tile__column">
 
-    <mj-text mj-class="views-tile_caption"
-            css-class="views-tile_caption">
+    <mj-text mj-class="views-tile__caption"
+            css-class="views-tile__caption">
             PIANOS
     </mj-text>
 
-  <mj-text mj-class="views-tile_text"
-            css-class="views-tile_text">
+  <mj-text mj-class="views-tile__text"
+            css-class="views-tile__text">
             45% off
     </mj-text>
 
@@ -80,9 +77,7 @@
 
 <mj-section>
         <mj-column mj-class="views-tile__column-sep"
-                   css-class="views-tile__column-sep">
-
-  </mj-column>
+                   css-class="views-tile__column-sep"/>
 </mj-section>
 
 <mj-section mj-class="views-tile"
@@ -91,11 +86,10 @@
   <mj-column mj-class="views-tile__column"
             css-class="views-tile__column">
 
-    <mj-image mj-class="views-tile__img alt-img"
-              css-class="views-tile__img alt-img"
+    <mj-image mj-class="views-tile__img"
+              css-class="views-tile__img"
 
               src="{{{views-tile__img-mic.src}}}"
-              href="{{{views-tile__img-mic.href}}}"
               title="{{{views-tile__img-mic.title}}}"
               alt="{{{views-tile__img-mic.alt}}}" />
   </mj-column>
@@ -103,13 +97,13 @@
   <mj-column mj-class="views-tile__column"
             css-class="views-tile__column">
 
-    <mj-text mj-class="views-tile_caption"
-            css-class="views-tile_caption">
+    <mj-text mj-class="views-tile__caption"
+            css-class="views-tile__caption">
             MICROFONES
     </mj-text>
 
-  <mj-text mj-class="views-tile_text"
-            css-class="views-tile_text">
+  <mj-text mj-class="views-tile__text"
+            css-class="views-tile__text">
             35% off
     </mj-text>
 
@@ -123,7 +117,5 @@
 </mj-section>
 <mj-section>
         <mj-column mj-class="views-tile__column sep"
-                   css-class="views-tile__column sep">
-
-  </mj-column>
+                   css-class="views-tile__column sep"/>
 </mj-section>

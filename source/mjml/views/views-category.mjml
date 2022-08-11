@@ -19,45 +19,25 @@
   <mj-column mj-class="views-category__column-btns"
             css-class="views-category__column-btns">
 
-    <mj-button mj-class="views-category__btn first"
-              css-class="views-category__btn first"
+    <mj-button mj-class="views-category__btn"
+              css-class="views-category__btn"
               href="#">
-        Electric Guitars
+              Electric Guitars
+
     </mj-button>
 
         <mj-button mj-class="views-category__btn"
               css-class="views-category__btn"
               href="#">
-        Amps
+              Amps
+
     </mj-button>
 
     <mj-button mj-class="views-category__btn"
               css-class="views-category__btn"
               href="#">
-        Drums
-    </mj-button>
+              Drums
 
-  </mj-column>
-
-  <mj-column mj-class="views-category__column-btns"
-            css-class="views-category__column-btns">
-
-    <mj-button mj-class="views-category__btn"
-              css-class="views-category__btn"
-              href="#">
-        Pro Audio
-    </mj-button>
-
-    <mj-button mj-class="views-category__btn"
-              css-class="views-category__btn"
-              href="#">
-        Synths
-    </mj-button>
-
-    <mj-button mj-class="views-category__btn"
-              css-class="views-category__btn"
-              href="#">
-        Straps
     </mj-button>
 
   </mj-column>
@@ -68,19 +48,48 @@
     <mj-button mj-class="views-category__btn"
               css-class="views-category__btn"
               href="#">
-        Effects & Pedals
+              Pro Audio
+
     </mj-button>
 
     <mj-button mj-class="views-category__btn"
               css-class="views-category__btn"
               href="#">
-        Base Guitars
+              Synths
+
+    </mj-button>
+
+    <mj-button mj-class="views-category__btn"
+              css-class="views-category__btn"
+              href="#">
+              Straps
+
+    </mj-button>
+
+  </mj-column>
+
+  <mj-column mj-class="views-category__column-btns"
+            css-class="views-category__column-btns">
+
+    <mj-button mj-class="views-category__btn"
+              css-class="views-category__btn"
+              href="#">
+              Effects & Pedals
+
+    </mj-button>
+
+    <mj-button mj-class="views-category__btn"
+              css-class="views-category__btn"
+              href="#">
+              Base Guitars
+
     </mj-button>
 
     <mj-button mj-class="views-category__btn"
               css-class="views-category__btn"
               href="#">
         Accessories
+
     </mj-button>
   </mj-column>
 

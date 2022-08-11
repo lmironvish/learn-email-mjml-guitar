@@ -116,14 +116,15 @@
 
   <mj-class name="views-title"               background-color="#dfdfdf" />
 
-  <mj-class name="views-title__img"          width="120px" />
+  <mj-class name="views-title__img"          width="120px"/>
 
   <!-- header -->
 
   <mj-class name="views-header"              background-color="#dfdfdf"/>
 
   <mj-class name="views-header__img"         width="600px"
-                                             padding-top="10px"/>
+                                             padding-top="10px"
+                                             fluid-on-mobile="true"/>
 
   <mj-class name="views-header__text"        font-family="Oswald, Verdana, sans-serif"
                                              font-size="38px"
@@ -167,7 +168,7 @@
 
   <!-- tiles -->
 
-  <mj-class name="views-tile_caption"        font-family="Oswald, Verdana, Geneva, sans-serif"
+  <mj-class name="views-tile__caption"       font-family="Oswald, Verdana, Geneva, sans-serif"
                                              font-size="22px"
                                              font-style="normal"
                                              font-weight="700"
@@ -177,7 +178,7 @@
                                              color="#efefef"
                                              padding="4px 20px"/>
 
-  <mj-class name="views-tile_text"           font-family="Verdana, Geneva, sans-serif"
+  <mj-class name="views-tile__text"          font-family="Verdana, Geneva, sans-serif"
                                              font-size="18px"
                                              font-style="normal"
                                              font-weight="700"
@@ -201,6 +202,8 @@
   <mj-class name="views-tile"                background-color="#d6383d"
                                              color="#efefef"/>
 
+  <mj-class name="views-tile__img"           fluid-on-mobile="true"/>
+
   <mj-class name="views-tile__column"        vertical-align="middle"/>
 
   <mj-class name="views-tile__column-sep"    background-color="#efefef"
@@ -213,12 +216,11 @@
   <mj-class name="views-best-disc"                 background-color="#efefef"
                                                    align="center"/>
 
-  <mj-class name="views-best-disc__column"         width="220px"
-                                                   align="center"/>
+  <mj-class name="views-best-disc__column"         align="center"/>
 
-  <mj-class name="views-best-disc__img-prev"       align="center"/>
-
-  <mj-class name="views-best-disc__column-prev-img"       align="center"/>
+  <mj-class name="views-best-disc__img-prev"       width="220px"
+                                                   align="center"
+                                                   fluid-on-mobile="true"/>
 
   <mj-class name="views-best-disc__img"            width="180px"
                                                    padding="10px"/>
@@ -275,8 +277,8 @@
                                                    border="1px solid #ffffff"
                                                    background-color="#202020"
                                                    color="#efefef"
-                                                   padding="10px"
                                                    inner-padding="10px 20px"
+                                                   padding="10px"
                                                    width="100%"/>
 
   <mj-class name="views-category__column-btns"     width="193px"
@@ -297,7 +299,7 @@
                                                    padding="10px"/>
 
   <mj-class name="views-footer__img-delivery"      width="40px"
-                                                   padding="10px"/>
+                                                   padding="10px" />
 
   <mj-class name="views-footer__img-return"        width="40px"
                                                    padding="10px"/>
