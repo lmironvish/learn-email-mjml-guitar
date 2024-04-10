@@ -1,5 +1,5 @@
-<mj-section mj-class="views-footer white-bg"
-            css-class="views-footer white-bg">
+<mj-section mj-class="views-footer"
+            css-class="views-footer">
 
   <mj-column mj-class="views-footer__column pb10 pt10"
              css-class="views-footer__column pb10 pt10">
@@ -15,8 +15,8 @@
 
 </mj-section>
 
-<mj-section mj-class="views-footer__advantages white-bg"
-            css-class="views-footer__advantages white-bg">
+<mj-section mj-class="views-footer__advantages"
+            css-class="views-footer__advantages">
 
   <mj-group>
 
@@ -80,8 +80,8 @@
   </mj-group>
 </mj-section>
 
-<mj-section mj-class="views-footer pb10 pt10 white-bg"
-            css-class="views-footer pb10 pt10 white-bg">
+<mj-section mj-class="views-footer pb10 pt10"
+            css-class="views-footer pb10 pt10">
 
   <mj-column mj-class="views-footer__column-social footer-left-col"
              css-class="views-footer__column-social footer-left-col"
@@ -121,8 +121,8 @@
 
 </mj-section>
 
-<mj-section mj-class="views-footer pb10 pt10 white-bg"
-            css-class="views-footer pb10 pt10 white-bg">
+<mj-section mj-class="views-footer pb10 pt10"
+            css-class="views-footer pb10 pt10">
 
   <mj-column mj-class="views-footer__column"
              css-class="views-footer__column">

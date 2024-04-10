@@ -25,8 +25,7 @@
                                              line-height="20px"
                                              color="#838383" />
 
-  <mj-wrapper                                padding="0px"
-                                             full-width="full-width"/>
+  <mj-wrapper                                padding="0px"/>
 
   <mj-section                                padding="0px" />
 
@@ -165,11 +164,7 @@
 
   <!-- background -->
 
-  <mj-class name="wrapper"                   background-url="https://i.postimg.cc/W3XzDRrN/img-guitar-main-bg.jpg"
-                                             background-position="left bottom"
-                                             background-repeat="no-repeat"
-                                             background-size="50%"
-                                             width="100%"/>
+  <mj-class name="wrapper"                   />
 
   <!-- background-colors -->
 

@@ -37,7 +37,12 @@
 
     <mj-include path="views/views-category.mjml" />
 
-    <mj-include path="views/views-footer.mjml" />
+  </mj-wrapper>
+
+    <mj-wrapper mj-class="wrapper white-bg"
+              css-class="wrapper white-bg">
+
+      <mj-include path="views/views-footer.mjml" />
 
   </mj-wrapper>
 
