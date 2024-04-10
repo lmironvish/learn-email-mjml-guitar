@@ -1,121 +1,119 @@
-<mj-section mj-class="views-tile"
-          css-class="views-tile">
+<mj-section mj-class="views-tile red-bg"
+            css-class="views-tile red-bg">
 
-  <mj-column mj-class="views-tile__column"
-            css-class="views-tile__column">
+  <mj-column mj-class="views-tile__column tile-col"
+             css-class="views-tile__column tile-col">
 
-    <mj-image mj-class="views-tile__img"
-              css-class="views-tile__img"
+    <mj-image mj-class="views-tile__img fluid"
+              css-class="views-tile__img fluid"
 
               src="{{{views-tile__img-guitar.src}}}"
               title="{{{views-tile__img-guitar.title}}}"
-              alt="{{{views-tile__img-guitar.alt}}}" />
+              alt="{{{views-tile__img-guitar.alt}}}"/>
   </mj-column>
 
-  <mj-column mj-class="views-tile__column"
-            css-class="views-tile__column">
+  <mj-column mj-class="views-tile__column tile-col red-bg"
+             css-class="views-tile__column tile-col red-bg">
 
-    <mj-text mj-class="views-tile__caption"
-            css-class="views-tile__caption">
-            GUITARS
+    <mj-text mj-class="views-tile__caption caption white-text pb10"
+             css-class="views-tile__caption caption white-text pb10">
+      GUITARS
     </mj-text>
 
-  <mj-text mj-class="views-tile__text"
-            css-class="views-tile__text">
-            <span>35% off</span>
+    <mj-text mj-class="views-tile__text text text-18 bold white-text pt0 pb15"
+             css-class="views-tile__text text text-18 bold white-text pt0 pb15">
+      <span>35% off</span>
     </mj-text>
 
-    <mj-button mj-class="views-tile__btn"
-              css-class="views-tile__btn"
-              href="#">
-        Learn more
+    <mj-button mj-class="views-tile__btn button-black pb10"
+               css-class="views-tile__btn button-black pb10"
+               href="https://github.com/lmironvish">
+      Learn more
     </mj-button>
   </mj-column>
 
 </mj-section>
 
-<mj-section>
-        <mj-column mj-class="views-tile__column-sep"
-                   css-class="views-tile__column-sep"/>
+<mj-section mj-class="views-tile white-bg pt10 pb10"
+            css-class="views-tile white-bg pt10 pb10">
+
 </mj-section>
 
-<mj-section mj-class="views-tile rtl"
-          css-class="views-tile rtl">
+<mj-section mj-class="views-tile red-bg"
+            css-class="views-tile red-bg"
+            direction="rtl">
 
-  <mj-column mj-class="views-tile__column"
-            css-class="views-tile__column">
+  <mj-column mj-class="views-tile__column tile-col"
+             css-class="views-tile__column tile-col">
 
-    <mj-image mj-class="views-tile__img"
-              css-class="views-tile__img"
+    <mj-image mj-class="views-tile__img fluid"
+              css-class="views-tile__img fluid"
 
               src="{{{views-tile__img-piano.src}}}"
               title="{{{views-tile__img-piano.title}}}"
-              alt="{{{views-tile__img-piano.alt}}}" />
+              alt="{{{views-tile__img-piano.alt}}}"/>
   </mj-column>
 
-  <mj-column mj-class="views-tile__column"
-            css-class="views-tile__column">
+  <mj-column mj-class="views-tile__column tile-col"
+             css-class="views-tile__column tile-col">
 
-    <mj-text mj-class="views-tile__caption"
-            css-class="views-tile__caption">
-            PIANOS
+    <mj-text mj-class="views-tile__caption caption white-text pb10"
+             css-class="views-tile__caption caption white-text pb10">
+      PIANOS
     </mj-text>
 
-  <mj-text mj-class="views-tile__text"
-            css-class="views-tile__text">
-            45% off
+    <mj-text mj-class="views-tile__text text text-18 bold white-text pt0 pb15"
+             css-class="views-tile__text text text-18 bold white-text pt0 pb15">
+      45% off
     </mj-text>
 
-    <mj-button mj-class="views-tile__btn"
-              css-class="views-tile__btn"
-              href="#">
-        Learn more
+    <mj-button mj-class="views-tile__btn button-black pb10"
+               css-class="views-tile__btn button-black pb10"
+               href="https://github.com/lmironvish">
+      Learn more
     </mj-button>
   </mj-column>
 
 </mj-section>
 
-<mj-section>
-        <mj-column mj-class="views-tile__column-sep"
-                   css-class="views-tile__column-sep"/>
+<mj-section mj-class="views-tile white-bg pt10 pb10"
+            css-class="views-tile white-bg pt10 pb10">
+
 </mj-section>
 
-<mj-section mj-class="views-tile"
-          css-class="views-tile">
+<mj-section mj-class="views-tile red-bg"
+            css-class="views-tile red-bg">
 
-  <mj-column mj-class="views-tile__column"
-            css-class="views-tile__column">
+  <mj-column mj-class="views-tile__column tile-col"
+             css-class="views-tile__column tile-col">
 
-    <mj-image mj-class="views-tile__img"
-              css-class="views-tile__img"
+    <mj-image mj-class="views-tile__img fluid"
+              css-class="views-tile__img fluid"
 
               src="{{{views-tile__img-mic.src}}}"
               title="{{{views-tile__img-mic.title}}}"
-              alt="{{{views-tile__img-mic.alt}}}" />
+              alt="{{{views-tile__img-mic.alt}}}"/>
   </mj-column>
 
-  <mj-column mj-class="views-tile__column"
-            css-class="views-tile__column">
+  <mj-column mj-class="views-tile__column tile-col"
+             css-class="views-tile__column tile-col">
 
-    <mj-text mj-class="views-tile__caption"
-            css-class="views-tile__caption">
-            MICROFONES
+    <mj-text mj-class="views-tile__caption caption white-text pb10"
+             css-class="views-tile__caption caption white-text pb10">
+      MICROFONES
     </mj-text>
 
-  <mj-text mj-class="views-tile__text"
-            css-class="views-tile__text">
-            35% off
+    <mj-text mj-class="views-tile__text text text-18 bold white-text pt0 pb15"
+             css-class="views-tile__text text text-18 bold white-text pt0 pb15">
+      35% off
     </mj-text>
 
-    <mj-button mj-class="views-tile__btn"
-              css-class="views-tile__btn"
-              href="#">
-        Learn more
+    <mj-button mj-class="views-tile__btn button-black pb10"
+               css-class="views-tile__btn button-black pb10"
+               href="https://github.com/lmironvish">
+      Learn more
     </mj-button>
+
   </mj-column>
 
-</mj-section>
-<mj-section>
-        <mj-column mj-class="views-tile__column sep"
-                   css-class="views-tile__column sep"/>
 </mj-section>

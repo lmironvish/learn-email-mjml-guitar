@@ -50,7 +50,7 @@
                                              border-style="solid"
                                              border-color="#ffffff" />
 
-  <mj-class name="container"                 width="87%" />
+  <mj-class name="container"                 padding="0px 20px" />
 
   <!-- helpers -->
 
@@ -104,6 +104,65 @@
 
   <!-- blocks -->
 
+  <!-- font-weight -->
+
+  <mj-class name="bold"                      font-weight="700" />
+
+  <!-- font-size/line-height -->
+
+  <mj-class name="text-46"                   font-size="46px"
+                                             line-height="46px"/>
+  <mj-class name="text-18"                   font-size="18px"
+                                             line-height="28px"/>
+  <mj-class name="text-14"                   font-size="14px"
+                                             line-height="22px"/>
+  <mj-class name="text-12"                   font-size="12px"
+                                             line-height="20px"/>
+
+  <!-- text-color -->
+
+  <mj-class name="red-text"                  color="#d6383d" />
+  <mj-class name="white-text"                color="#efefef" />
+  <mj-class name="black-text"                color="#202020" />
+
+  <!-- aligns -->
+
+  <mj-class name="center"                    align="center" />
+  <mj-class name="left"                      align="left" />
+
+  <!-- text-classes -->
+
+  <mj-class name="title-caption"             font-family="Oswald, Verdana, sans-serif"
+                                             font-size="38px"
+                                             font-style="normal"
+                                             font-weight="400"
+                                             line-height="38px"
+                                             text-align="center"
+                                             text-transform="uppercase"
+                                             color="#202020"/>
+
+  <mj-class name="caption"                   font-family="Oswald, Verdana, sans-serif"
+                                             font-size="22px"
+                                             font-style="normal"
+                                             font-weight="400"
+                                             line-height="34px"
+                                             text-transform="uppercase"
+                                             color="#202020"/>
+
+  <mj-class name="text"                      font-family="Verdana, Geneva, sans-serif"
+                                             font-size="14px"
+                                             font-style="normal"
+                                             font-weight="400"
+                                             line-height="22px"
+                                             color="#efefef"/>
+
+  <mj-class name="footer-text"               font-family="Verdana, Geneva, sans-serif"
+                                             font-size="12px"
+                                             font-style="normal"
+                                             font-weight="400"
+                                             line-height="20px"
+                                             color="#7b7b7b"/>
+
   <!-- background -->
 
   <mj-class name="wrapper"                   background-url="https://i.postimg.cc/W3XzDRrN/img-guitar-main-bg.jpg"
@@ -112,233 +171,57 @@
                                              background-size="50%"
                                              width="100%"/>
 
-  <!-- title -->
+  <!-- background-colors -->
 
-  <mj-class name="views-title"               background-color="#dfdfdf" />
+  <mj-class name="white-bg"                  background-color="#dfdfdf"/>
+  <mj-class name="gray-bg"                   background-color="#efefef"/>
+  <mj-class name="red-bg"                    background-color="#d6383d"/>
+  <mj-class name="black-bg"                  background-color="#202020"/>
 
-  <mj-class name="views-title__img"          width="120px"/>
+  <!-- button-classes -->
 
-  <!-- header -->
-
-  <mj-class name="views-header"              background-color="#dfdfdf"/>
-
-  <mj-class name="views-header__img"         width="600px"
-                                             padding-top="10px"
-                                             fluid-on-mobile="true"/>
-
-  <mj-class name="views-header__text"        font-family="Oswald, Verdana, sans-serif"
-                                             font-size="38px"
-                                             font-style="normal"
-                                             font-weight="400"
-                                             line-height="38px"
-                                             text-align="center"
-                                             text-transform="uppercase"
-                                             color="#202020"
-                                             padding-bottom="0px"
-                                             padding-top="10px"
-                                             padding-left="20px"
-                                             padding-right="20px"/>
-
-  <mj-class name="views-header__caption"     font-family="Oswald, Verdana, sans-serif"
-                                             font-size="46px"
-                                             font-style="normal"
-                                             font-weight="700"
-                                             line-height="46px"
-                                             text-align="center"
-                                             text-transform="uppercase"
-                                             color="#d6383d"
-                                             padding-bottom="10px"
-                                             padding-top="0px"
-                                             padding-left="20px"
-                                             padding-right="20px"/>
-
-  <mj-class name="views-header__btn"         font-family="Verdana, Geneva, sans-serif"
+  <mj-class name="button-black"              font-family="Verdana, Geneva, sans-serif"
                                              font-size="16px"
-                                             font-size="normal"
+                                             font-style="normal"
                                              font-weight="700"
                                              line-height="26px"
-                                             text-align="center"
+                                             inner-padding="10px 20px"
                                              border-radius="0px"
                                              text-transform="uppercase"
-                                             background-color="#202020"
                                              color="#efefef"
-                                             padding="10px 20px"/>
+                                             background-color="#202020"/>
 
-  <mj-class name="views-header__img-div"     padding="20px 0px"/>
-
-  <!-- tiles -->
-
-  <mj-class name="views-tile__caption"       font-family="Oswald, Verdana, Geneva, sans-serif"
-                                             font-size="22px"
+  <mj-class name="border-button"             font-family="Verdana, Geneva, sans-serif"
+                                             font-size="12px"
                                              font-style="normal"
                                              font-weight="700"
-                                             line-height="34px"
-                                             text-align="center"
-                                             text-transform="uppercase"
-                                             color="#efefef"
-                                             padding="4px 20px"/>
-
-  <mj-class name="views-tile__text"          font-family="Verdana, Geneva, sans-serif"
-                                             font-size="18px"
-                                             font-style="normal"
-                                             font-weight="700"
-                                             line-height="28px"
-                                             text-align="center"
-                                             color="#efefef"
-                                             padding="5px 20px"/>
-
-  <mj-class name="views-tile__btn"           font-family="Verdana, Geneva, sans-serif"
-                                             font-size="16px"
-                                             font-size="normal"
-                                             font-weight="700"
-                                             line-height="26px"
-                                             text-align="center"
+                                             line-height="22px"
+                                             inner-padding="10px 0px"
                                              border-radius="0px"
                                              text-transform="uppercase"
-                                             background-color="#202020"
                                              color="#efefef"
-                                             padding="10px 20px"/>
+                                             background-color="#202020"
+                                             width="100%" />
 
-  <mj-class name="views-tile"                background-color="#d6383d"
-                                             color="#efefef"/>
+  <!-- column-classes -->
 
-  <mj-class name="views-tile__img"           fluid-on-mobile="true"/>
+  <mj-class name="tile-col"                  width="300px"/>
 
-  <mj-class name="views-tile__column"        vertical-align="middle"/>
+  <mj-class name="three-col-footer"          width="33%"/>
 
-  <mj-class name="views-tile__column-sep"    background-color="#efefef"
-                                             padding-bottom="20px"/>
+  <mj-class name="three-col"                 width="193px"/>
 
-  <mj-class name="rtl"                       direction="rtl"/>
+  <mj-class name="two-col"                   width="300px"/>
 
-  <!-- best discounts -->
+  <mj-class name="two-col-per"               width="50%"/>
 
-  <mj-class name="views-best-disc"                 background-color="#efefef"
-                                                   align="center"/>
+  <mj-class name="footer-left-col"           width="40%"/>
 
-  <mj-class name="views-best-disc__column"         align="center"/>
+  <mj-class name="footer-right-col"          width="60%"/>
 
-  <mj-class name="views-best-disc__img-prev"       width="220px"
-                                                   align="center"
-                                                   fluid-on-mobile="true"/>
+  <!-- image-configs-->
 
-  <mj-class name="views-best-disc__img"            width="180px"
-                                                   padding="10px"/>
-
-  <mj-class name="head"                            font-family="Oswald, Verdana, Geneva, sans-serif"
-                                                   font-size="22px"
-                                                   font-style="normal"
-                                                   font-weight="700"
-                                                   line-height="34px"
-                                                   text-align="center"
-                                                   text-transform="uppercase"
-                                                   color="#202020"
-                                                   padding="4px 20px"/>
-
-  <mj-class name="views-best-disc__btn"            font-family="Verdana, Geneva, sans-serif"
-                                                   font-size="16px"
-                                                   font-size="normal"
-                                                   font-weight="700"
-                                                   line-height="26px"
-                                                   text-align="center"
-                                                   border-radius="0px"
-                                                   text-transform="uppercase"
-                                                   background-color="#202020"
-                                                   color="#efefef"
-                                                   padding="10px 20px"/>
-
-  <mj-class name="views-best-disc__text"           padding="6px 20px"/>
-
-  <mj-class name="views-best-disc__caption"        padding="5px 20px"/>
-
-  <!-- category -->
-
-  <mj-class name="views-category"                  background-color="#202020"/>
-
-  <mj-class name="views-category__caption"         font-family="Oswald, Verdana, Geneva, sans-serif"
-                                                   font-size="22px"
-                                                   font-style="normal"
-                                                   font-weight="700"
-                                                   line-height="34px"
-                                                   text-align="center"
-                                                   text-transform="uppercase"
-                                                   color="#efefef"
-                                                   padding-top="14px"
-                                                   padding-left="20px"
-                                                   padding-right="20px"
-                                                   padding-bottom="4px"/>
-
-  <mj-class name="views-category__btn"             font-family="Verdana, Geneva, sans-serif"
-                                                   font-size="14px"
-                                                   font-size="normal"
-                                                   font-weight="700"
-                                                   line-height="22px"
-                                                   text-align="center"
-                                                   border="1px solid #ffffff"
-                                                   background-color="#202020"
-                                                   color="#efefef"
-                                                   inner-padding="10px 20px"
-                                                   padding="10px"
-                                                   width="100%"/>
-
-  <mj-class name="views-category__column-btns"     width="193px"
-                                                   background-color="#202020"/>
-
-
-  <!-- footer -->
-
-  <mj-class name="views-footer"                    background-color="#efefef"
-                                                   vertical-align="middle"/>
-
-  <mj-class name="views-footer__advantages"        background-color="#efefef"
-                                                   padding-bottom="4px"
-                                                   padding-left="10px"
-                                                   padding-right="10px"/>
-
-  <mj-class name="views-footer__img-students"      width="40px"
-                                                   padding="10px"/>
-
-  <mj-class name="views-footer__img-delivery"      width="40px"
-                                                   padding="10px" />
-
-  <mj-class name="views-footer__img-return"        width="40px"
-                                                   padding="10px"/>
-
-  <mj-class name="views-footer__img-logo"          width="120px"
-                                                   padding="5px 15px"
-                                                   align="left"/>
-
-  <mj-class name="views-footer__caption"           font-family="Verdana, Geneva, sans-serif"
-                                                   font-size="12px"
-                                                   font-style="normal"
-                                                   font-weight="700"
-                                                   line-height="20px"
-                                                   text-align="center"
-                                                   text-transform="uppercase"
-                                                   color="#202020"
-                                                   padding-top="14px"
-                                                   padding-bottom="10px"
-                                                   padding-left="10px"
-                                                   padding-right="10px"/>
-
-  <mj-class name="views-footer__social"            icon-size="32px"
-                                                   align="right"
-                                                   padding="5px 15px"
-                                                   inner-padding="4px"/>
-
-  <mj-class name="views-footer__column-social"     width="300px"
-                                                   vertical-align="middle"/>
-
-
-  <mj-class name="views-footer__copyright"         font-family="Verdana, Geneva, sans-serif"
-                                                   font-size="12px"
-                                                   font-style="normal"
-                                                   font-weight="400"
-                                                   line-height="20px"
-                                                   text-align="left"
-                                                   align="left"
-                                                   color="#7b7b7b"
-                                                   padding="10px 20px"/>
+  <mj-class name="fluid"                     fluid-on-mobile="true"/>
 
 
 </mj-attributes>

@@ -2,7 +2,7 @@ const { src, dest } = require("gulp")
 const $ = require("gulp-load-plugins")()
 
 module.exports = function changepath() {
-  return src("build-test/**/*.html")
+  return src("build/**/*.html")
     .pipe(
       $.replace(
         /\b[^>]*\bbackground-image: url\('([^"]*\/)[^\/"]*"[^<>]*/gim,
@@ -14,5 +14,5 @@ module.exports = function changepath() {
         match.replace(p1, "image/")
       )
     )
-    .pipe(dest("build-test"))
+    .pipe(dest("build"))
 }

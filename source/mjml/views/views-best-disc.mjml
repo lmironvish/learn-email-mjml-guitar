@@ -1,114 +1,123 @@
-<mj-section mj-class="views-best-disc"
-          css-class="views-best-disc">
+<mj-section mj-class="views-best-disc pt15 gray-bg"
+            css-class="views-best-disc pt15 gray-bg">
 
   <mj-column mj-class="views-best-disc__column"
-            css-class="views-best-disc__column">
+             css-class="views-best-disc__column">
 
-    <mj-text mj-class="views-best-disc_caption head"
-            css-class="views-best-disc_caption head">
-            BEST DISCOUNTS
+    <mj-text mj-class="views-best-disc__caption caption pt0 pb10"
+             css-class="views-best-disc__caption caption pt0 pb10">
+      BEST DISCOUNTS
     </mj-text>
 
   </mj-column>
 
 </mj-section>
 
-<mj-section mj-class="views-best-disc pt10 pb10"
-          css-class="views-best-disc pt10 pb10">
+<mj-section mj-class="views-best-disc pt10 pb10 gray-bg"
+            css-class="views-best-disc pt10 pb10 gray-bg">
 
-  <mj-column mj-class="views-best-disc__column"
-            css-class="views-best-disc__column">
+  <mj-column mj-class="views-best-disc__column two-col"
+             css-class="views-best-disc__column two-col">
 
-    <mj-image mj-class="views-best-disc__img-prev"
-              css-class="views-best-disc__img-prev"
+    <mj-image mj-class="views-best-disc__img-prev fluid"
+              css-class="views-best-disc__img-prev fluid"
+              width="220px"
 
               src="{{{views-best-disc__img-prev-guitar.src}}}"
               title="{{{views-best-disc__img-prev-guitar.title}}}"
-              alt="{{{views-best-disc__img-prev-guitar.alt}}}" />
+              alt="{{{views-best-disc__img-prev-guitar.alt}}}"/>
   </mj-column>
 
-  <mj-column mj-class="views-best-disc__column"
-            css-class="views-best-disc__column">
+  <mj-column mj-class="views-best-disc__column two-col"
+             css-class="views-best-disc__column two-col">
 
-    <mj-image mj-class="views-best-disc__img"
-              css-class="views-best-disc__im"
+    <mj-image mj-class="views-best-disc__img pt10 pb10"
+              css-class="views-best-disc__img pt10 pb10"
+              width="180px"
 
               src="{{{views-best-disc__img-guitar.src}}}"
               href="{{{views-best-disc__img-guitar.href}}}"
               title="{{{views-best-disc__img-guitar.title}}}"
-              alt="{{{views-best-disc__img-guitar.alt}}}" />
+              alt="{{{views-best-disc__img-guitar.alt}}}"/>
 
-  <mj-text mj-class="views-best-disc__text"
-            css-class="views-best-disc__text">
-            <span class="off_percent">20% OFF</span>
+    <mj-text mj-class="views-best-disc__text text red-text text-14 bold pb10 pt0"
+             css-class="views-best-disc__text text red-text text-14 bold pb10 pt0">
+      <span>20% OFF</span>
     </mj-text>
 
-    <mj-text mj-class="views-best-disc_caption"
-            css-class="views-best-disc_caption">
-            <span class="caption">Electric Guitar One</span>
+    <mj-text mj-class="views-best-disc__caption caption text-18 bold pb10 pt0"
+             css-class="views-best-disc__caption caption text-18 bold pb10 pt0">
+      <span>Electric Guitar One</span>
 
     </mj-text>
 
-  <mj-text mj-class="views-best-disc__text"
-            css-class="views-best-disc__text">
-            <span style="font-size: 14px;">Price: <span style="text-decoration: line-through">$100</span> <span class="new_price">$80</span></span>
-  </mj-text>
+    <mj-text mj-class="views-best-disc__text text pt0 pb15 black-text"
+             css-class="views-best-disc__text text pt0 pb15 black-text">
+      <span style="font-size: 14px;">Price:
+        <span style="text-decoration: line-through">$100</span>
+        <span class="red-text-inline">$80</span>
+      </span>
+    </mj-text>
 
-    <mj-button mj-class="views-best-disc__btn"
-              css-class="views-best-disc__btn"
-              href="#">
-        See product
+    <mj-button mj-class="views-best-disc__btn button-black"
+               css-class="views-best-disc__btn button-black"
+               href="https://github.com/lmironvish">
+      See product
     </mj-button>
   </mj-column>
 
 </mj-section>
 
-<mj-section mj-class="views-best-disc pt10 pb20"
-          css-class="views-best-disc pt10 pb20">
+<mj-section mj-class="views-best-disc pt10 pb20 gray-bg"
+            css-class="views-best-disc pt10 pb20 gray-bg">
 
-  <mj-column mj-class="views-best-disc__column"
-            css-class="views-best-disc__column">
+  <mj-column mj-class="views-best-disc__column two-col"
+             css-class="views-best-disc__column two-col">
 
-    <mj-image mj-class="views-best-disc__img-prev"
-              css-class="views-best-disc__img-prev"
+    <mj-image mj-class="views-best-disc__img-prev fluid"
+              css-class="views-best-disc__img-prev fluid"
+              width="220px"
 
               src="{{{views-best-disc__img-prev-drums.src}}}"
               title="{{{views-best-disc__img-prev-drums.title}}}"
-              alt="{{{views-best-disc__img-prev-drums.alt}}}" />
+              alt="{{{views-best-disc__img-prev-drums.alt}}}"/>
   </mj-column>
 
-  <mj-column mj-class="views-best-disc__column"
-            css-class="views-best-disc__column">
+  <mj-column mj-class="views-best-disc__column two-col"
+             css-class="views-best-disc__column two-col">
 
-    <mj-image mj-class="views-best-disc__img"
-              css-class="views-best-disc__img"
+    <mj-image mj-class="views-best-disc__img pt10 pb10"
+              css-class="views-best-disc__img pt10 pb10"
+              width="180px"
 
               src="{{{views-best-disc__img-drums.src}}}"
               href="{{{views-best-disc__img-drums.href}}}"
               title="{{{views-best-disc__img-drums.title}}}"
-              alt="{{{views-best-disc__img-drums.alt}}}" />
+              alt="{{{views-best-disc__img-drums.alt}}}"/>
 
-  <mj-text mj-class="views-best-disc__text"
-            css-class="views-best-disc__text">
-            <span class="off_percent">50% OFF</span>
+    <mj-text mj-class="views-best-disc__text text red-text text-14 bold pb10 pt0"
+             css-class="views-best-disc__text text red-text text-14 bold pb10 pt0">
+      <span>50% OFF</span>
     </mj-text>
 
-    <mj-text mj-class="views-best-disc_caption"
-            css-class="views-best-disc_caption">
-            <span class="caption">Acoustic drums</span>
-
-    </mj-text>
-
-  <mj-text mj-class="views-best-disc__text"
-            css-class="views-best-disc__text">
-            <span style="font-size: 14px;">Price: <span style="text-decoration: line-through">$100</span>  <span class="new_price">$50</span></span>
+    <mj-text mj-class="views-best-disc__caption caption text-18 bold pb10 pt0"
+             css-class="views-best-disc__caption caption text-18 bold pb10 pt0">
+      <span>Acoustic drums</span>
 
     </mj-text>
 
-    <mj-button mj-class="views-best-disc__btn"
-              css-class="views-best-disc__btn"
-              href="#">
-        See product
+    <mj-text mj-class="views-best-disc__text text pt0 pb15 black-text"
+             css-class="views-best-disc__text text pt0 pb15 black-text">
+      <span style="font-size: 14px;">Price: <span style="text-decoration: line-through">$100</span>
+        <span class="red-text-inline">$50</span>
+      </span>
+
+    </mj-text>
+
+    <mj-button mj-class="views-best-disc__btn button-black"
+               css-class="views-best-disc__btn button-black"
+               href="https://github.com/lmironvish">
+      See product
     </mj-button>
   </mj-column>
 

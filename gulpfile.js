@@ -9,8 +9,12 @@ const changepath = require("./task/changepath.js")
 const copybuild = require("./task/copybuild.js")
 const copytest = require("./task/copytest.js")
 const prettier = require("./task/prettier.js")
+const minify = require("./task/minify.js")
+const minifytest = require("./task/minifytest.js")
+const analyze = require("./task/analyze.js")
 const archive = require("./task/archive.js")
 const typograf = require("./task/typograf.js")
+const delearchive = require("./task/delearchive.js")
 const test = require("./task/test.js")
 
 function watcher() {
@@ -38,6 +42,8 @@ exports.typograf = gulp.series(typograf)
 
 exports.image = gulp.series(image, style, mustache)
 
+exports.minify = gulp.series(minify, minifytest, delearchive, archive, analyze)
+
 exports.dev = gulp.series(style, mustache, gulp.parallel(serve, watcher))
 
 exports.build = gulp.series(
@@ -46,5 +52,6 @@ exports.build = gulp.series(
   prettier,
   copytest,
   changepath,
-  archive
+  archive,
+  analyze
 )

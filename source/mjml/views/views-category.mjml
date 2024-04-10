@@ -1,94 +1,94 @@
-<mj-section mj-class="views-category"
-          css-class="views-category">
+<mj-section mj-class="views-category black-bg"
+            css-class="views-category black-bg">
 
   <mj-column mj-class="views-category__column"
-            css-class="views-category__column">
+             css-class="views-category__column">
 
-    <mj-text mj-class="views-category__caption"
-            css-class="views-category__caption">
-            SHOP BY CATEGORY
+    <mj-text mj-class="views-category__caption caption white-text"
+             css-class="views-category__caption caption white-text">
+      SHOP BY&nbsp;CATEGORY
     </mj-text>
 
   </mj-column>
 
 </mj-section>
 
-<mj-section mj-class="views-category pb30 pr10 pl10"
-          css-class="views-category pb30 pr10 pl10">
+<mj-section mj-class="views-category pb30 pr10 pl10 black-bg"
+            css-class="views-category pb30 pr10 pl10 black-bg">
 
-  <mj-column mj-class="views-category__column-btns"
-            css-class="views-category__column-btns">
+  <mj-column mj-class="views-category__column three-col"
+             css-class="views-category__column three-col">
 
-    <mj-button mj-class="views-category__btn"
-              css-class="views-category__btn"
-              href="#">
-              Electric Guitars
-
-    </mj-button>
-
-        <mj-button mj-class="views-category__btn"
-              css-class="views-category__btn"
-              href="#">
-              Amps
+    <mj-button mj-class="views-category__button border-button center"
+               css-class="views-category__button border-button center"
+               href="https://github.com/lmironvish">
+      Electric Guitars
 
     </mj-button>
 
-    <mj-button mj-class="views-category__btn"
-              css-class="views-category__btn"
-              href="#">
-              Drums
+    <mj-button mj-class="views-category__button border-button center"
+               css-class="views-category__button border-button center"
+               href="https://github.com/lmironvish">
+      Amps
 
     </mj-button>
 
-  </mj-column>
-
-  <mj-column mj-class="views-category__column-btns"
-            css-class="views-category__column-btns">
-
-    <mj-button mj-class="views-category__btn"
-              css-class="views-category__btn"
-              href="#">
-              Pro Audio
-
-    </mj-button>
-
-    <mj-button mj-class="views-category__btn"
-              css-class="views-category__btn"
-              href="#">
-              Synths
-
-    </mj-button>
-
-    <mj-button mj-class="views-category__btn"
-              css-class="views-category__btn"
-              href="#">
-              Straps
+    <mj-button mj-class="views-category__button border-button center"
+               css-class="views-category__button border-button center"
+               href="https://github.com/lmironvish">
+      Drums
 
     </mj-button>
 
   </mj-column>
 
-  <mj-column mj-class="views-category__column-btns"
-            css-class="views-category__column-btns">
+  <mj-column mj-class="views-category__column three-col"
+             css-class="views-category__column three-col">
 
-    <mj-button mj-class="views-category__btn"
-              css-class="views-category__btn"
-              href="#">
-              Effects & Pedals
-
-    </mj-button>
-
-    <mj-button mj-class="views-category__btn"
-              css-class="views-category__btn"
-              href="#">
-              Base Guitars
+    <mj-button mj-class="views-category__button border-button center"
+               css-class="views-category__button border-button center"
+               href="https://github.com/lmironvish">
+      Pro Audio
 
     </mj-button>
 
-    <mj-button mj-class="views-category__btn"
-              css-class="views-category__btn"
-              href="#">
-        Accessories
+    <mj-button mj-class="views-category__button border-button center"
+               css-class="views-category__button border-button center"
+               href="https://github.com/lmironvish">
+      Synths
+
+    </mj-button>
+
+    <mj-button mj-class="views-category__button border-button center"
+               css-class="views-category__button border-button center"
+               href="https://github.com/lmironvish">
+      Straps
+
+    </mj-button>
+
+  </mj-column>
+
+  <mj-column mj-class="views-category__column three-col"
+             css-class="views-category__column three-col">
+
+    <mj-button mj-class="views-category__button border-button center"
+               css-class="views-category__button border-button center"
+               href="https://github.com/lmironvish">
+      Effects & Pedals
+
+    </mj-button>
+
+    <mj-button mj-class="views-category__button border-button center"
+               css-class="views-category__button border-button center"
+               href="https://github.com/lmironvish">
+      Base Guitars
+
+    </mj-button>
+
+    <mj-button mj-class="views-category__button border-button center"
+               css-class="views-category__button border-button center"
+               href="https://github.com/lmironvish">
+      Accessories
 
     </mj-button>
   </mj-column>

@@ -15,7 +15,6 @@
     <mj-include path="components/button/button-style.mjml" />
     <mj-font name="Oswald"
        href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" />
-   </mj-head>
 
     <mj-raw>
       <meta name="color-scheme" content="light dark">
@@ -29,8 +28,6 @@
 
   <mj-wrapper mj-class="wrapper"
               css-class="wrapper">
-
-    <mj-include path="views/views-title.mjml" />
 
     <mj-include path="views/views-header.mjml" />
 

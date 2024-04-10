@@ -1,34 +1,43 @@
-<mj-section mj-class="views-header"
-          css-class="views-header">
+<mj-section mj-class="views-header pt10 white-bg"
+          css-class="views-header pt10 white-bg">
 
   <mj-column mj-class="views-header__column"
             css-class="views-header__column">
 
-    <mj-text mj-class="views-header__text"
-            css-class="views-header__text">
+    <mj-image mj-class="views-title__img pt10 pb10 container"
+              css-class="views-title__img pt10 pb10 container"
+              width="120px"
+
+              src="{{{views-title__img.src}}}"
+              href="{{{views-title__img.href}}}"
+              title="{{{views-title__img.title}}}"
+              alt="{{{views-title__img.alt}}}" />
+
+    <mj-text mj-class="views-header__text title-caption bold pb0 pt10 container"
+            css-class="views-header__text title-caption bold pb0 pt10 container">
             LABOR DAY
     </mj-text>
 
-    <mj-text mj-class="views-header__caption"
-            css-class="views-header__caption">
+    <mj-text mj-class="views-header__caption title-caption text-46 bold red-text pt0 pb20 container"
+            css-class="views-header__caption title-caption text-46 bold red-text pt0 pb20 container">
             WEEKEND SALE
     </mj-text>
 
-    <mj-button mj-class="views-header__btn"
-              css-class="views-header__btn"
-              href="#">
+    <mj-button mj-class="views-header__btn button-black pb20 container"
+              css-class="views-header__btn button-black pb20 container"
+              href="https://github.com/lmironvish">
         Shop now
     </mj-button>
 
-    <mj-image mj-class="views-header__img alt-img"
-              css-class="views-header__img alt-img"
+    <mj-image mj-class="views-header__img"
+              css-class="views-header__img"
 
               src="{{{views-header__img.src}}}"
               title="{{{views-header__img.title}}}"
               alt="{{{views-header__img.alt}}}" />
 
-    <mj-image mj-class="views-header__img-div alt-img"
-              css-class="views-header__img-div alt-img"
+    <mj-image mj-class="views-header__img-div pt20 pb20"
+              css-class="views-header__img-div pt20 pb20"
 
               src="{{{views-header__img-div.src}}}"
               title="{{{views-header__img-div.title}}}"

@@ -48,6 +48,7 @@ Thumbs.db
 **/.gulp
 **/node_modules
 **/tmp*
-**/build*
+**/build-test
+#**/build*
 **/dev*
 sendmailconfig.js
